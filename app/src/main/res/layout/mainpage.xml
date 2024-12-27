@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/simpleCheckBox"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        app:buttonTint = "@color/black"
+        android:background="@drawable/blackcornerborder"
+        android:text="Lower all Flags to Half Mast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <CheckBox
+        android:id="@+id/simpleCheckBox2"
+        android:layout_width="310dp"
+        app:backgroundTint="@null"
+        app:buttonTint = "@color/black"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blackcornerborder"
+        android:text="Raise All Flags to Full Height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Flag Operations"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.070" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.70"
+        tools:itemCount="5"
+        tools:listitem="@layout/card_view_design" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Individual Flag Operations"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <Button
+        app:backgroundTint="@null"
+        android:id="@+id/button3"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="597dp"
+        android:background="@color/darkpink"
+        android:text="Home"
+        android:textColor = "@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/simpleCheckBox" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="714dp"
+        android:background="@color/pink"
+        android:text="Battery"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="684dp"
+        android:background="@color/pink"
+        android:text="Profile"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

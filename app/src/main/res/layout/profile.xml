@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="226dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/simpleCheckBox"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+
+
+
+    <Button
+        app:backgroundTint="@null"
+        android:id="@+id/button3"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="594dp"
+        android:background="@color/pink"
+        android:text="Home"
+        android:textColor = "@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/simpleCheckBox" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="714dp"
+        android:background="@color/pink"
+        android:text="Battery"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="684dp"
+        android:background="@color/darkpink"
+        android:text="Profile"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, flagteam1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.220" />
+
+    <Button
+        android:id="@+id/test"
+        app:backgroundTint="@null"
+        android:layout_width="120dp"
+        android:background="@drawable/roundcornerborder2"
+        android:layout_height="42dp"
+        android:textSize = "15dp"
+        android:text="Sign out"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <Button
+        android:id="@+id/switch1"
+        android:layout_width="220dp"
+        app:backgroundTint = "@color/white"
+        android:layout_height="40dp"
+        android:background="@drawable/blackcornerborder"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
