@@ -1,4 +1,4 @@
-This app utilizes get requests sent through android studio code to an online webserver created by an ESP32 microcontroller through Arduino IDE. The webserver receives the requests, and the ESP32 helps turn a motor connected to the flag to raise or lower the flag. Future plans for this app include improving security and logins, making the UI more aesthetic, adding more functions (including connections to different flags around campus), and hopefully eventually autonomating the raising of flags at Duke University. 
+This app utilizes GET requests sent through android studio code to an online webserver created by an ESP32 microcontroller through Arduino IDE. The webserver receives the requests, and the ESP32 helps turn a motor connected to the flag to raise or lower the flag. Future plans for this app include improving security and logins, incorporating frameworks to make the UI more aesthetic, adding more functions (including connections to different flags around campus), and hopefully eventually autonomating the raising of flags at Duke University. 
 
 Below is a demonstration of the app:
 
